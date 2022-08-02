@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Titillium+Web&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+li, a, button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0470CE;
+    text-decoration: none;
+}
+
+.full_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-right: auto;
+
+    
+}
+.logo {
+    cursor: pointer;
+    height: 50px;
+    width: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-right:auto;
+    font-family: 'Kaisei Opti', serif;
+    font-weight: 400;
+    color: rgba(4, 111, 205,1);
+    padding-left: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color: rgb(34, 140, 41);
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(161, 203, 252, 0.876);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgba(34, 140, 41,.5);
+}
+.firstblock{
+    background-color: lightslategray;
+    height: 800px;
+    width: auto;
+}
